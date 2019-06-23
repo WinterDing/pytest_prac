@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"failed","tests.unit.test_task_fail#test_task_equality","0","Different tasks should not be equal"
+"failed","tests.unit.test_task_fail#test_dict_equality","1","Different tasks compared as dicts should not be equal."

@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.unit.test_task.TestAdd#testShowTask[task b]","0",""
+"passed","tests.unit.test_task.TestAdd#testShowTask[task a]","0",""
+"passed","tests.unit.test_task.TestAdd#testAddTask[task c]","0",""
+"passed","tests.unit.test_task.TestAdd#testAddTask[task b]","0",""
+"passed","tests.unit.test_task.TestAdd#testShowTask[task c]","0",""
+"passed","tests.unit.test_task.TestAdd#testAddTask[task a]","0",""

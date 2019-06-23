@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "XiaodongDingPC",
+    "children" : [ {
+      "name" : "125536-MainThread",
+      "children" : [ {
+        "name" : "test_task_equality",
+        "uid" : "e1ab70a418adfb1b",
+        "parentUid" : "c00447b1b5458212b839ec78464f502b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544692501235,
+          "stop" : 1544692501235,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dict_equality",
+        "uid" : "aeab07658b80a3d9",
+        "parentUid" : "c00447b1b5458212b839ec78464f502b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544692501284,
+          "stop" : 1544692501285,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c00447b1b5458212b839ec78464f502b"
+    } ],
+    "uid" : "4654451a47b57234f922c0c154b05b19"
+  } ]
+}

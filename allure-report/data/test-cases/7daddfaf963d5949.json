@@ -1,0 +1,86 @@
+{
+  "uid" : "7daddfaf963d5949",
+  "name" : "testAddTask[task c]",
+  "fullName" : "tests.unit.test_task.TestAdd#testAddTask[task c]",
+  "historyId" : "9d824e4ed006e0b8db1a318a5ac83309",
+  "time" : {
+    "start" : 1543913222501,
+    "stop" : 1543913222501,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "deef2d222a9791ae",
+      "name" : "log",
+      "source" : "deef2d222a9791ae.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "78c1b1798757e288",
+      "name" : "stdout",
+      "source" : "78c1b1798757e288.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "8468c575d266759a",
+      "name" : "stderr",
+      "source" : "8468c575d266759a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.unit"
+  }, {
+    "name" : "suite",
+    "value" : "test_task"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "XiaodongDingPC"
+  }, {
+    "name" : "thread",
+    "value" : "401780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.unit.test_task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "task",
+    "value" : "'c'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7daddfaf963d5949.json",
+  "parameterValues" : [ "'c'" ]
+}

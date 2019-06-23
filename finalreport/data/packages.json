@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.unit.test_task_fail",
+    "children" : [ {
+      "name" : "test_task_equality",
+      "uid" : "e1ab70a418adfb1b",
+      "parentUid" : "236aa50ee53f3f01ab5deef34dcf23c5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1544692501235,
+        "stop" : 1544692501235,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_dict_equality",
+      "uid" : "aeab07658b80a3d9",
+      "parentUid" : "236aa50ee53f3f01ab5deef34dcf23c5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1544692501284,
+        "stop" : 1544692501285,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.unit.test_task_fail"
+  } ]
+}

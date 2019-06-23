@@ -1,0 +1,21 @@
+[ {
+  "uid" : "aeab07658b80a3d9",
+  "name" : "test_dict_equality",
+  "time" : {
+    "start" : 1544692501284,
+    "stop" : 1544692501285,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ab70a418adfb1b",
+  "name" : "test_task_equality",
+  "time" : {
+    "start" : 1544692501235,
+    "stop" : 1544692501235,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

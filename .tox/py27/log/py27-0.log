@@ -1,0 +1,8 @@
+action: py27, msg: getenv
+cwd: D:\kyligence\kyligence_github\pytest_prac\bopytest-code\code\tasks_proj\.tox
+cmd: 'd:\programfiles\python27\python2.exe' -m virtualenv --no-download --python 'd:\programfiles\python27\python2.exe' py27
+Already using interpreter d:\programfiles\python27\python2.exe
+New python executable in D:\kyligence\kyligence_github\pytest_prac\bopytest-code\code\tasks_proj\.tox\py27\Scripts\python2.exe
+Also creating executable in D:\kyligence\kyligence_github\pytest_prac\bopytest-code\code\tasks_proj\.tox\py27\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.

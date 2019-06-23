@@ -7,6 +7,7 @@ import tasks
 from tasks import Task
 
 @pytest.fixture()
+
 def tasks_db(tmpdir):
     """Connect to db before tests, disconnect after."""
     # Setup : start db

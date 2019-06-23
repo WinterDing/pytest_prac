@@ -6,6 +6,7 @@ We'll add a bunch of tests here in later versions.
 import pytest
 import tasks
 from tasks import Task
+import json
 
 
 def test_add():
@@ -22,3 +23,8 @@ def test_add_return_valid_id(tasks_db):
 def test_add_increases_count(db_with_3_tasks):
     tasks.add(Task('throw a party'))
     assert tasks.count() == 4
+
+
+@pytest.mark.new
+def test_winter_test():
+    assert 1+2 == 3

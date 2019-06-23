@@ -1,0 +1,110 @@
+{
+  "uid" : "e1ab70a418adfb1b",
+  "name" : "test_task_equality",
+  "fullName" : "tests.unit.test_task_fail#test_task_equality",
+  "historyId" : "d3986c0a4e29aa8f33748df3428449a3",
+  "time" : {
+    "start" : 1544692501235,
+    "stop" : 1544692501235,
+    "duration" : 0
+  },
+  "description" : "Different tasks should not be equal",
+  "descriptionHtml" : "<p>Different tasks should not be equal</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert Task(summary=...alse, id=None) == Task(summary='...alse, id=None)\n  At index 0 diff: 'sit there' != 'do something'\n  Use -v to get the full diff",
+  "statusTrace" : "@pytest.mark.a\n    def test_task_equality():\n        \"\"\"Different tasks should not be equal\"\"\"\n        with allure.step(\"test winter step2\"):\n            t1 = Task('sit there', 'brain')\n            t2 = Task('do something', 'okken')\n>           assert t1 == t2\nE           AssertionError: assert Task(summary=...alse, id=None) == Task(summary='...alse, id=None)\nE             At index 0 diff: 'sit there' != 'do something'\nE             Use -v to get the full diff\n\ntests\\unit\\test_task_fail.py:11: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert Task(summary=...alse, id=None) == Task(summary='...alse, id=None)\n  At index 0 diff: 'sit there' != 'do something'\n  Use -v to get the full diff",
+    "statusTrace" : "@pytest.mark.a\n    def test_task_equality():\n        \"\"\"Different tasks should not be equal\"\"\"\n        with allure.step(\"test winter step2\"):\n            t1 = Task('sit there', 'brain')\n            t2 = Task('do something', 'okken')\n>           assert t1 == t2\nE           AssertionError: assert Task(summary=...alse, id=None) == Task(summary='...alse, id=None)\nE             At index 0 diff: 'sit there' != 'do something'\nE             Use -v to get the full diff\n\ntests\\unit\\test_task_fail.py:11: AssertionError",
+    "steps" : [ {
+      "name" : "test winter step2",
+      "time" : {
+        "start" : 1544692501235,
+        "stop" : 1544692501235,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert Task(summary=...alse, id=None) == Task(summary='...alse, id=None)\n  At index 0 diff: 'sit there' != 'do something'\n  Use -v to get the full diff\n",
+      "statusTrace" : "  File \"D:\\kyligence\\kyligence_github\\pytest_prac\\bopytest-code\\code\\tasks_proj\\tests\\unit\\test_task_fail.py\", line 11, in test_task_equality\n    assert t1 == t2\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "92613dbe98e60c88",
+      "name" : "log",
+      "source" : "92613dbe98e60c88.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5b9828ab1608b57d",
+      "name" : "stdout",
+      "source" : "5b9828ab1608b57d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5924afaf7aca22ff",
+      "name" : "stderr",
+      "source" : "5924afaf7aca22ff.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "a"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.unit"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_fail"
+  }, {
+    "name" : "host",
+    "value" : "XiaodongDingPC"
+  }, {
+    "name" : "thread",
+    "value" : "125536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.unit.test_task_fail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "a" ]
+  },
+  "source" : "e1ab70a418adfb1b.json",
+  "parameterValues" : [ ]
+}

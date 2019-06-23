@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert Task(summary=...alse, id=None) == Task(summary='...alse, id=None)\n  At index 0 diff: 'sit there' != 'do something'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_task_equality",
+        "uid" : "e1ab70a418adfb1b",
+        "parentUid" : "efc72c863d40c675d4a58a0e7f220c1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544692501235,
+          "stop" : 1544692501235,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "efc72c863d40c675d4a58a0e7f220c1c"
+    }, {
+      "name" : "AssertionError: assert OrderedDict([...('id', None)]) == OrderedDict([(...('id', None)])\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'owner': 'okken'} != {'owner': 'okkem'}\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_dict_equality",
+        "uid" : "aeab07658b80a3d9",
+        "parentUid" : "58129d8fbf772e6d929e53fe1add59f0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544692501284,
+          "stop" : 1544692501285,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58129d8fbf772e6d929e53fe1add59f0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

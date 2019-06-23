@@ -1,0 +1,42 @@
+{
+  "d3986c0a4e29aa8f33748df3428449a3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1ab70a418adfb1b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert Task(summary=...alse, id=None) == Task(summary='...alse, id=None)\n  At index 0 diff: 'sit there' != 'do something'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1544692501235,
+        "stop" : 1544692501235,
+        "duration" : 0
+      }
+    } ]
+  },
+  "85af3c95646710325bc70d44324cbc7e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aeab07658b80a3d9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert OrderedDict([...('id', None)]) == OrderedDict([(...('id', None)])\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'owner': 'okken'} != {'owner': 'okkem'}\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1544692501284,
+        "stop" : 1544692501285,
+        "duration" : 1
+      }
+    } ]
+  }
+}

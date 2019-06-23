@@ -1,0 +1,37 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.unit",
+    "children" : [ {
+      "name" : "test_task_fail",
+      "children" : [ {
+        "name" : "test_task_equality",
+        "uid" : "e1ab70a418adfb1b",
+        "parentUid" : "657cf39706e8fdf6dc95bde81dc8460b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544692501235,
+          "stop" : 1544692501235,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dict_equality",
+        "uid" : "aeab07658b80a3d9",
+        "parentUid" : "657cf39706e8fdf6dc95bde81dc8460b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544692501284,
+          "stop" : 1544692501285,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "657cf39706e8fdf6dc95bde81dc8460b"
+    } ],
+    "uid" : "f6772fab1eb16954eefa7bdfd38fc185"
+  } ]
+}
